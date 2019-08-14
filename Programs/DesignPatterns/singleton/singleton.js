@@ -1,4 +1,4 @@
-var dom = (function(){
+ dom = (function(){
     let _counter = 0;
     let instance;
 
