@@ -26,3 +26,5 @@ var dom = (function(){
     }
 
 })();
+
+export default dom;
