@@ -18,11 +18,7 @@ function Stack() {
    this.isEmpty = function(){
       return this.item.length == 0 ? true : false;
    }
-
-   this.addToFront = function(element){
-       return this.item.shift(element);
-   }
-
+     
    this.contains = function(element){
        if(this.item.indexOf(element) != -1) return true;
        else return false;
